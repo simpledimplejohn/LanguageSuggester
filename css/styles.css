@@ -13,3 +13,16 @@ body {
   background-color: rgb(253, 233, 255);
   border: 2px solid lightgray;
 }
+#fortran {
+  display: none;
+}
+#cobol {
+  display: none;
+}
+#lisp {
+  display: none;
+}
+#ada {
+  display: none;
+}
+
