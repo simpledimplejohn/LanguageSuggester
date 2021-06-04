@@ -1,6 +1,10 @@
 body {
   font-family: 'Rosario', sans-serif;
 }
+.em {
+  color: red;
+  font-style: italic;
+}
 .jumbotron {
   background-color: rgb(253, 233, 255);
   border: 2px solid lightgray;
