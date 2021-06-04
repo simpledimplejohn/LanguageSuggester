@@ -10,6 +10,9 @@ h1 {
 h2 {
   font-family: 'Orbitron', sans-serif;
 }
+h5 {
+  font-style: bold;
+}
 
 .em {
   color: red;

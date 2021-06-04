@@ -5,7 +5,7 @@ $(document).ready(function() {
     const time = $("#time").val();
   
     if (time === "lots") {
-
+      $(".previous").hide();
       $("#fortran").show();
       
     } else if (time === "some") {
