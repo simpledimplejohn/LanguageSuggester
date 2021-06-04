@@ -8,6 +8,7 @@ $(document).ready(function() {
       $(".previous").hide();
       $("#fortran").show();
     } else {
+      $(".previous").hide();
       $("#blank").show();
     }
   });
