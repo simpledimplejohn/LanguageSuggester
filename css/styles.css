@@ -1,6 +1,14 @@
 body {
   font-family: 'Rosario', sans-serif;
 }
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
 .em {
   color: red;
   font-style: italic;
