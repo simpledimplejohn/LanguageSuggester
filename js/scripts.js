@@ -16,7 +16,7 @@ $(document).ready(function() {
       $("#lisp").show();
     } else {
       $(".previous").hide();
-      $("#ada").show();
+      $("#pascal").show();
     }
   });
 });
