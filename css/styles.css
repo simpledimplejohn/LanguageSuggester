@@ -1,0 +1,7 @@
+body {
+  font-family: 'Rosario', sans-serif;
+}
+.jumbotron {
+  background-color: rgb(253, 233, 255);
+  border: 2px solid lightgray;
+}
