@@ -7,25 +7,25 @@ $(document).ready(function() {
     const computer = $("#computer").val();
   
     if(decade === "1960s") {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#fortran").show();
     } else if(decade === "1970s") {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#cobol").show();
     } else if(computer === "mainframe") {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#lisp").show();
     } else if(computer === "ibm") {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#pascal").show();
     } else if(decade === "1980s" || computer === "commodore64") {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("basic#").show();
     } else if(time === "none" || time === "little" || computer === "pc"){
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#javascript").show();
     } else {
-      //$(".previous").hide();
+      $(".previous").hide();
       $("#javascript").show();
     }
   });
