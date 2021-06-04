@@ -48,7 +48,11 @@ h5 {
 #lisp {
   display: none;
 }
-#ada {
+#pascal {
+  display: none;
+}
+
+#basic {
   display: none;
 }
 
