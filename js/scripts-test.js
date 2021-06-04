@@ -5,8 +5,8 @@ $(document).ready(function() {
     const time = $("#time").val();
   
     if (time === "lots") {
-      $("#fortran").show();
       $(".previous").hide();
+      $("#fortran").show();
     } else {
       $("#blank").show();
     }
