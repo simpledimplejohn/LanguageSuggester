@@ -14,7 +14,7 @@
 
 ## Description
 
-_This website demonstrates how a jQuery function can take an input from the user on the webpage and feed that into a branching function that returns an answer.  In this case the user choose which is the worst coding language to learn.
+_This website demonstrates how a jQuery function can take an input from the user on the webpage and feed that into a branching function that returns an answer.  In this case the user choose which is the worst coding language to learn._
 
 ## Setup/Installation Requirements
 
