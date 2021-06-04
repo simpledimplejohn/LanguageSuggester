@@ -4,6 +4,10 @@ body {
 .em {
   color: red;
   font-style: italic;
+  font-weight: bold;
+}
+#quiz {
+  background-color:rgb(240, 255, 233);
 }
 .jumbotron {
   background-color: rgb(253, 233, 255);
