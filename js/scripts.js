@@ -4,26 +4,23 @@ $(document).ready(function() {
 
     const time = $("#time").val();
     const decade = $("#decade").val();
-    const computer = $("#computer").val();
-  
-    if(decade === "1960s") {
+    const computer =$("#computer").val();
+
+    if (decade === "1960" && (time === "lots" || time === "some") && computer === "mainframe") {
       $(".previous").hide();
       $("#fortran").show();
-    } else if(decade === "1970s") {
+    } else if(decade === "1950" && (time === "lots" || time === "some") && computer === "mainframe") {
       $(".previous").hide();
       $("#cobol").show();
-    } else if(computer === "mainframe") {
+    } else if(decade === "1970" && (time === "lots" || time === "some") && computer === "mainframe") {
       $(".previous").hide();
       $("#lisp").show();
-    } else if(computer === "ibm") {
+    } else if(decade === "1940" && (time === "lots" || time === "some") && computer === "mainframe") {
       $(".previous").hide();
       $("#pascal").show();
-    } else if(decade === "1980s" || computer === "commodore64") {
+    } else if(decade === "1980" || computer === "commodore64") {
       $(".previous").hide();
-      $("basic#").show();
-    } else if(time === "none" || time === "little" || computer === "pc"){
-      $(".previous").hide();
-      $("#javascript").show();
+      $("#basic").show();
     } else {
       $(".previous").hide();
       $("#javascript").show();
