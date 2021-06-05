@@ -25,8 +25,7 @@ _This website demonstrates how a jQuery function can take an input from the user
 
 ## Known Bugs and Future Changes
 
-* _Show/hide function does not work yet_
-* _Test page will be removed once bug solved_
+
 
 ## License
 
