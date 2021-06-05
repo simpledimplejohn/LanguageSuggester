@@ -10,6 +10,12 @@ $(document).ready(function() {
     } else if(time === "some") {
       $(".previous").hide();
       $("#cobol").show();
+    } else if(time === "little") {
+      $(".previous").hide();
+      $("#lisp").show();
+    } else if(time === "none") {
+      $(".previous").hide();
+      $("#pascal").show();
     } else {
       $(".previous").hide();
       $("#blank").show();
