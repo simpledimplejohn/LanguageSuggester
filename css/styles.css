@@ -33,8 +33,13 @@ h5 {
 
 .card-body {
   background-color: black;
+  border: 2px solid greenyellow;
 }
-
+.previous {
+  padding: 20px;
+  background-color: black;
+  border: 2px solid greenyellow;
+}
 #blank{
   background-color: black;
   border: 2px solid greenyellow;
