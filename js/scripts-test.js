@@ -3,22 +3,26 @@ $(document).ready(function() {
     event.preventDefault();
 
     const time = $("#time").val();
-  
-    if (time === "lots") {
+    const decade = $("#decade").val();
+
+    if (decade === "1960") {
       $(".previous").hide();
       $("#fortran").show();
-    } else if(time === "some") {
+    } else if(decade === "1970") {
       $(".previous").hide();
       $("#cobol").show();
-    } else if(time === "little") {
+    } else if(decade === "1970s") {
       $(".previous").hide();
       $("#lisp").show();
-    } else if(time === "none") {
+    } else if(decade === "1950") {
       $(".previous").hide();
       $("#pascal").show();
-    } else {
+    } else if(decade === "1980s") {
       $(".previous").hide();
-      $("#blank").show();
+      $("#basic").show();
+    }else {
+      $(".previous").hide();
+      $("#javascript").show();
     }
   });
 });
