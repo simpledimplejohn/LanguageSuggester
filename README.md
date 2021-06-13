@@ -31,6 +31,8 @@ _This website demonstrates how a jQuery function can take an input from the user
 
 _[MIT](https://opensource.org/licenses/MIT)_
 
+_Copyright (c) 2021 John Blalock_
+
 ## Github Pages Link
 
 [Portfolio](https://simpledimplejohn.github.io/LanguageSuggester)
